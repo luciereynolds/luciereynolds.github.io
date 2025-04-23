@@ -11,11 +11,12 @@ export default function Portfolio() {
       image: "/assets/portfolio/ComputingCadets.png",
     },
     {
-      name: "Project 2",
-      description: "Description",
-      technologies: "Technology used.",
-      link: "link-to-project",
-      image: "https://via.placeholder.com/300",
+      name: "Hostel Application",
+      description: 
+      "This hostel application was created as part of a Front-End Web Development module during my time at University",
+      technologies: "MongoDB, Express, Node.js and React",
+      link: "https://github.com/luciereynolds/hostel-application",
+      image: "/assets/portfolio/Hostels1.png",
     },
     {
       name: "Project 3",
