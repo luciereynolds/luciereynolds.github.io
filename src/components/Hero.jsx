@@ -4,15 +4,15 @@ export default function Hero() {
       id="home"
       className="h-screen flex flex-col justify-center items-center text-white text-center px-4"
     >
-      <h1 className="text-6xl sm:text-9xl md:text-8xl font-extrabold mb-6">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
         Hi, I’m Lucie!
       </h1>
-      <p className="text-2xl sm:text-5xl md:text-4xl mb-8">
+      <p className="text-lg sm:text-xl md:text-2xl mb-6">
         I'm a full-stack developer.
       </p>
       <a
         href="#about"
-        className="px-8 sm:px-10 py-4 sm:py-5 border border-white text-white hover:bg-white hover:text-black rounded-full transition-all duration-300 text-lg sm:text-3xl"
+        className="px-4 sm:px-6 py-2 sm:py-3 border border-white text-white hover:bg-white hover:text-black rounded-full transition-all duration-300 text-sm sm:text-base"
       >
         Learn more about me! ↓
       </a>
