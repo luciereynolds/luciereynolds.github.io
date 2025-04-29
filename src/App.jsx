@@ -22,7 +22,7 @@ function App() {
       />
 
       {/* Actual content */}
-      <div className="relative z-20 text-white">
+      <div className="relative z-20 text-white px-4 sm:px-8">
         <Hero />
         <Navbar />
         <About />
