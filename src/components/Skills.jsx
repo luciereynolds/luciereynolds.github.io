@@ -14,13 +14,13 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-10 px-6 text-center">
-      <h2 className="text-3xl font-bold mb-10">Skills</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-items-center">
+    <section id="skills" className="py-10 px-4 sm:px-6 text-center">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-10">Skills</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-8 justify-items-center">
         {tech.map(({ name, icon }) => (
           <div key={name} className="flex flex-col items-center space-y-2">
-            <img src={icon} alt={name} className="w-16 h-16" />
-            <span className="text-sm font-medium">{name}</span>
+            <img src={icon} alt={name} className="w-12 h-12 sm:w-16 sm:h-16" />
+            <span className="text-xs sm:text-sm font-medium">{name}</span>
           </div>
         ))}
       </div>
