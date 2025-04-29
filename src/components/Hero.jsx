@@ -4,10 +4,10 @@ export default function Hero() {
       id="home"
       className="h-screen flex flex-col justify-center items-center text-white text-center px-4"
     >
-      <h1 className="text-6xl sm:text-7xl md:text-8xl font-extrabold mb-6">
+      <h1 className="text-6xl sm:text-9xl md:text-8xl font-extrabold mb-6">
         Hi, I’m Lucie!
       </h1>
-      <p className="text-2xl sm:text-3xl md:text-4xl mb-8">
+      <p className="text-2xl sm:text-5xl md:text-4xl mb-8">
         I'm a full-stack developer.
       </p>
       <a
