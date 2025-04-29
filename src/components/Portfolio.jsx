@@ -12,8 +12,8 @@ export default function Portfolio() {
     },
     {
       name: "Hostel Application",
-      description:
-        "This hostel application was created as part of a Front-End Web Development module during my time at University",
+      description: 
+      "This hostel application was created as part of a Front-End Web Development module during my time at University",
       technologies: "MongoDB, Express, Node.js and React",
       link: "https://github.com/luciereynolds/hostel-application",
       image: "/assets/portfolio/Hostels1.png",
@@ -28,39 +28,39 @@ export default function Portfolio() {
   ];
 
   return (
-    <section
-      id="portfolio"
-      className="py-10 px-4 sm:px-6 text-white-800 text-center"
-    >
-      <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-10">
-        Portfolio
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+    <section id="portfolio" className="py-20 px-6 text-white-800 text-center">
+      <h2 className="text-3xl font-bold mb-10">Portfolio</h2>
+      <div className="max-w-3xl mx-auto flex flex-col items-center gap-6">
+        <p className="text-lg leading-relaxed">
+          Here are some of the projects I've worked on.
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-10">
         {projects.map((project, index) => (
-          <div key={index} className="bg-white p-4 sm:p-6 rounded-lg shadow-md">
-            <img
-              src={project.image}
-              alt={project.name}
-              className="w-full h-auto rounded-lg mb-4"
-            />
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">
-              {project.name}
-            </h3>
-            <p className="text-sm sm:text-base text-gray-700">
-              {project.description}
-            </p>
-            <p className="text-sm sm:text-base text-gray-500 italic mb-4">
-              {project.technologies}
-            </p>
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 sm:px-6 py-2 sm:py-3 border border-black text-black hover:bg-black hover:text-white rounded-full transition-all duration-300 text-sm sm:text-base"
-            >
-              View Project
-            </a>
-          </div>
+          <React.Fragment key={index}>
+            {/* Project Name, Description and Link */}
+            <div className="p-6">
+              <h3 className="text-xl font-semibold mb-4">{project.name}</h3>
+              <p className="text-white-400">{project.description}</p>
+              <br />
+              <p className="text-white-400 mb-4 italic">{project.technologies}</p>
+              <br />
+              <a
+                href={project.link} target="_blank"
+                className="px-6 py-3 border border-white text-white hover:bg-white hover:text-black rounded-full transition-all duration-300"
+              >
+                View Project
+              </a>
+            </div>
+            {/* Image */}
+            <div className="bg-white p-6 rounded-lg">
+              <img
+                src={project.image}
+                alt={project.name}
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+          </React.Fragment>
         ))}
       </div>
     </section>
