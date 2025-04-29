@@ -4,7 +4,7 @@ export default function Hero() {
       id="home"
       className="h-screen flex flex-col justify-center items-center text-white text-center px-4"
     >
-      <h1 className="text-9xl md:text-5xl lg:text-4xl font-extrabold mb-4">
+      <h1 className="text-6xl md:text-5xl lg:text-4xl font-extrabold mb-4">
         Hi, I’m Lucie!
       </h1>
       <p className="text-lg sm:text-xl md:text-2xl mb-6">
