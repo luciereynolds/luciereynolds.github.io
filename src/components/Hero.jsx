@@ -12,7 +12,7 @@ export default function Hero() {
       </p>
       <a
         href="#about"
-        className="px-8 sm:px-10 py-4 sm:py-5 border border-white text-white hover:bg-white hover:text-black rounded-full transition-all duration-300 text-lg sm:text-xl"
+        className="px-8 sm:px-10 py-4 sm:py-5 border border-white text-white hover:bg-white hover:text-black rounded-full transition-all duration-300 text-lg sm:text-3xl"
       >
         Learn more about me! ↓
       </a>
