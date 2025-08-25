@@ -21,7 +21,7 @@ export default function Portfolio() {
     {
       name: "Photography Portfolio",
       description: "A mock photography portfolio website showcasing various photography styles and galleries.",
-      technologies: "Technology used.",
+      technologies: "Technology used .",
       link: "link-to-project",
       image: "https://via.placeholder.com/300",
     },
