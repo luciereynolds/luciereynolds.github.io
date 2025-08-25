@@ -26,7 +26,7 @@ export default function Portfolio() {
       image: "https://via.placeholder.com/300",
     },
     {
-      name: "TEST",
+      name: "TEST 2",
       description: "Description",
       technologies: "Technology used.",
       link: "link-to-project",
