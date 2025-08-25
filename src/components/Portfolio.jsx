@@ -19,9 +19,9 @@ export default function Portfolio() {
       image: "/assets/portfolio/Hostels1.png",
     },
     {
-      name: "Photography Portfolio",
-      description: "A mock photography portfolio website showcasing various photography styles and galleries.",
-      technologies: "Technology used .",
+      name: "Photgraphy Portfolio Example",
+      description: "Description",
+      technologies: "Technology used.",
       link: "link-to-project",
       image: "https://via.placeholder.com/300",
     },
